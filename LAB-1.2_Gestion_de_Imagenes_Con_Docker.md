@@ -30,7 +30,7 @@ cd image
   "name": "docker_web_app",
   "version": "1.0.0",
   "description": "Node.js on Docker",
-  "author": "lab cna <cna@example.com>",
+  "author": "lab udi <cna@example.com>",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -52,7 +52,7 @@ const HOST = '0.0.0.0';
 // App
 const app = express();
 app.get('/', (req, res) => {
-  res.send(`Bienvenido a Cloud Native Academy`);
+  res.send(`Bienvenido a UDI NextGen 2025`);
 });
 app.listen(PORT, HOST);
 console.log(`Running on http://${HOST}:${PORT}`);
