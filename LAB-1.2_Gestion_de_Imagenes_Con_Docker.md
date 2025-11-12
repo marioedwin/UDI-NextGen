@@ -1,5 +1,5 @@
 
-# Administración de Docker & Kubernetes  
+# Administración Basica de Docker  
 
 ## “Gestión de imágenes con Docker”
 
