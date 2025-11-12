@@ -51,7 +51,7 @@ sudo docker ps
    - Prefijo de la tabla: `wp_` (dejar el valor por defecto).
 
 4. Configure los accesos para el administrador de Wordpress:
-   - Título del sitio: `Cloud Native Academy`
+   - Título del sitio: `UDI NextGen 2025`
    - Nombre de usuario: `admin`
    - Contraseña: `admin2024#$`
    - Correo electrónico: `admin@gmail.com`
