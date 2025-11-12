@@ -10,7 +10,7 @@
 ### Requerimientos:
 - Un servidor Ubuntu 24.04.
 
-**Nota:** Todos los comandos se estarán ejecutando con el usuario `Ubuntu`, por ello adicione la palabra `sudo` antes de cada comando.
+**Nota:** Todos los comandos se estarán ejecutando con el usuario `Docker Ubuntu`, por ello adicione la palabra `sudo` antes de cada comando.
 
 ---
 
