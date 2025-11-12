@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Esencial: Control de Versiones con Docker</title>
+    <style>
+        body { font-family: Arial, sans-serif; line-height: 1.6; padding: 20px; max-width: 900px; margin: auto; background-color: #f4f4f9; color: #333; }
+        h1, h2 { color: #F05033; border-bottom: 2px solid #ccc; padding-bottom: 5px; }
+        .intro { background-color: #e3eefd; padding: 15px; border-left: 5px solid #2C3E50; margin-bottom: 20px; }
+        .cheatsheet table { width: 100%; border-collapse: collapse; margin-top: 15px; }
+        .cheatsheet th, .cheatsheet td { border: 1px solid #ddd; padding: 10px; text-align: left; }
+        .cheatsheet th { background-color: #2C3E50; color: white; }
+        code { background-color: #eee; padding: 2px 5px; border-radius: 3px; color: #555; }
+    </style>
+</head>
+<body>
+
+    <div class="intro">
+        <h1>🐙 Git Esencial: El Corazón del Desarrollo Moderno</h1>
+        <p>Esta página está siendo servida por un contenedor **Docker** con Nginx. Aprende sobre la herramienta esencial que hace posible el desarrollo colaborativo y la gestión de versiones de código.</p>
+    </div>
+
+    <h2>¿Qué es Git?</h2>
+    <p>Git es un sistema de **Control de Versiones Distribuido (DVCS)**, creado por Linus Torvalds. Su función principal es rastrear los cambios en los archivos de un proyecto a lo largo del tiempo. Esto permite a los desarrolladores volver a versiones anteriores, trabajar en paralelo y fusionar cambios de manera eficiente, evitando conflictos.</p>
+    
+    <h2>💡 Conceptos Clave de Git</h2>
+    <ul>
+        <li>**Repositorio (Repo):** La base de datos que almacena todo el historial del proyecto.</li>
+        <li>**Commit:** Una "instantánea" de los cambios en un momento dado, con un mensaje descriptivo.</li>
+        <li>**Rama (Branch):** Un puntero a un commit. Permite trabajar en una nueva funcionalidad sin afectar la versión principal (main).</li>
+        <li>**Merge:** El proceso de integrar los cambios de una rama a otra.</li>
+    </ul>
+
+    <h2 id="cheatsheet">🚀 Git Cheatsheet (Comandos Esenciales)</h2>
+    <div class="cheatsheet">
+        <table>
+            <thead>
+                <tr>
+                    <th>Área</th>
+                    <th>Comando</th>
+                    <th>Descripción</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>**Inicialización**</td>
+                    <td><code>git init</code></td>
+                    <td>Crea un nuevo repositorio local en el directorio actual.</td>
+                </tr>
+                <tr>
+                    <td>**Clonación**</td>
+                    <td><code>git clone &lt;url&gt;</code></td>
+                    <td>Descarga un repositorio remoto completo a tu máquina.</td>
+                </tr>
+                <tr>
+                    <td>**Stage**</td>
+                    <td><code>git add .</code></td>
+                    <td>Añade todos los archivos modificados o nuevos al área de *staging*.</td>
+                </tr>
+                <tr>
+                    <td>**Guardar**</td>
+                    <td><code>git commit -m "Mensaje descriptivo"</code></td>
+                    <td>Guarda los cambios staged en el historial del repositorio.</td>
+                </tr>
+                <tr>
+                    <td>**Ramas**</td>
+                    <td><code>git checkout -b &lt;nombre&gt;</code></td>
+                    <td>Crea una nueva rama y se cambia a ella inmediatamente.</td>
+                </tr>
+                <tr>
+                    <td>**Ramas**</td>
+                    <td><code>git switch &lt;nombre&gt;</code></td>
+                    <td>Cambia a una rama existente (alternativa moderna a checkout).</td>
+                </tr>
+                <tr>
+                    <td>**Sincronización**</td>
+                    <td><code>git push origin main</code></td>
+                    <td>Sube los commits locales al repositorio remoto (ej. GitHub).</td>
+                </tr>
+                <tr>
+                    <td>**Sincronización**</td>
+                    <td><code>git pull</code></td>
+                    <td>Descarga y fusiona los cambios remotos con tu rama local.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <footer>
+        <p style="text-align: center; margin-top: 30px; font-size: 0.8em; color: #888;">Servido desde un Contenedor Docker 🐳</p>
+    </footer>
+
+</body>
+</html>
